@@ -1,0 +1,191 @@
+/**
+    Responsive css
+    Author: As Md Habibullah
+**/
+
+
+/* 
+  Device = Desktops
+  Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+	.nav-button{
+  	display: none;
+  }
+  
+}
+
+/* 
+  Device = Laptops, Desktops
+  Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+ 	.nav-button{
+  	display: none;
+  }
+  .owner-img h2
+  {
+    left: 25%;
+  }
+  
+}
+
+/* 
+  Device = Tablets, Ipads (portrait)
+  Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+	.nav-button
+  {
+  	display: none;
+  }
+  .card
+  {
+    margin: 30px;
+  }
+
+  .owner-img h2
+  {
+    left: 15%;
+  }
+  .owner-img img 
+  {
+    height: 750px;
+  }
+  .total-area
+  {
+    text-align: center;
+  }
+
+  .project-area img
+  {
+    height: 180px;
+  }
+
+
+}
+
+/* 
+  Device = Low Resolution Tablets, Mobiles (Landscape)
+  Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  .navbar-nav.bd-navbar-nav.flex-row
+  {
+    display: none;
+  }
+  .nav-button
+  {
+    margin-left: 290px;
+  }
+
+  .owner-img h2
+  {
+    left: 0%;
+  }
+  .owner-img img 
+  {
+    height: 550px;
+  }
+   .total-area
+  {
+    text-align: center;
+  }
+
+  .team-img
+  {
+    width: 70%;
+  }
+   .person-social button
+  {
+    width: 8%;
+    height: 40px;
+  }
+  .back-to-top img
+  {
+    width: 10%;
+  }
+}
+
+/* 
+  Device = Most of the Smartphones Mobiles (Portrait)
+  Screen = B/w 320px to 479px
+*/
+
+@media (max-width: 480px) {
+
+
+  .navbar-nav
+  {
+  	display: none;
+  }
+  .nav-button
+  {
+  	margin-left: 260px;
+  }
+  .total-area
+  {
+    text-align: center;
+  }
+
+  .owner-img img 
+  {
+    height: 350px;
+  }
+
+  .owner-img h2
+  {
+    left: 0%;
+  }
+
+
+  .personal-img img
+  {
+    height: 400px;
+  }
+
+  .personal-img h2
+  {
+    top: 220px;
+  }
+  .skill-img
+  {
+    width: 20%;
+    height: 60px;
+    margin-left: 0;
+  }
+
+  .team-img
+  {
+    width: 80%;
+  }
+  .person-social button
+  {
+    width: 10%;
+    height: 40px;
+  }
+  .social-button 
+  {
+    margin-top: 20px;
+  }
+  .social-icon button
+  {
+    width: 13%;
+  }
+  .footer-menu
+  {
+    margin-top: 15px;
+  }
+
+  .back-to-top img
+  {
+    width: 10%;
+  }
+}
