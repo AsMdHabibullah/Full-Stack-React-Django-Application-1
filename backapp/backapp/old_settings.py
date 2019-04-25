@@ -99,17 +99,6 @@ DATABASES = {
     }
 }
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'profile',
-        'USER': 'asmdhabibullah',
-        'PASSWORD': 'abus9434abuS@$',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
-    }
-}
-
 import dj_database_url
 
 dv_from_env = dj_database_url.config()
